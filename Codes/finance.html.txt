@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financing Options - Family Car Dealership</title>
+    <link rel="stylesheet" href="ChezFur.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Family Car Dealership</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Inventory</a></li>
+                    <li><a href="financial.html">Financing Options</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="financing">
+            <h2>Flexible Financing Options</h2>
+            <p>We offer a variety of financing plans to suit your budget and needs. Our transparent process ensures you find the best solution for your family.</p>
+            <dl class="financing-list">
+                <dt>Low Interest Plans</dt>
+                <dd>Benefit from competitive interest rates starting at just 3.5% APR for qualified buyers.</dd>
+
+                <dt>Zero Down Payment</dt>
+                <dd>Drive away with zero down payment for select models and terms.</dd>
+
+                <dt>Custom Monthly Payments</dt>
+                <dd>Flexible terms of 12, 24, 36, or 48 months, tailored to your budget.</dd>
+
+                <dt>Trade-In Assistance</dt>
+                <dd>Get additional savings when you trade in your current vehicle.</dd>
+
+                <dt>First-Time Buyer Program</dt>
+                <dd>Special plans with easy approvals for first-time car buyers.</dd>
+            </dl>
+        </section>
+
+        <section id="benefits">
+            <h2>Why Choose Our Financing?</h2>
+            <ul class="benefits-list">
+                <li>No hidden fees or surprises.</li>
+                <li>Pre-approval process is quick and hassle-free.</li>
+                <li>Experienced advisors to guide you every step of the way.</li>
+                <li>Special rates for military, teachers, and healthcare professionals.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Family Car Dealership. All rights reserved.</p>
+    </footer>
+</body>
+</html>

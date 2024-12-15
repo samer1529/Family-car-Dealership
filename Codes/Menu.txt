@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Family Car Dealership</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Family Car Dealership</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Inventory</a></li>
+                    <li><a href="#financing">Financing Options</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inventory">
+            <h2>Our Inventory</h2>
+            <p>Explore our diverse range of vehicles to find the one perfect for you.</p>
+            <dl class="menu-list">
+                <dt>Sedans</dt>
+                <dd>Comfortable, reliable, and perfect for city drives. Starting at $20,000.</dd>
+                <dt>SUVs</dt>
+                <dd>Spacious and versatile, ideal for family trips. Starting at $30,000.</dd>
+                <dt>Trucks</dt>
+                <dd>Durable and capable for heavy-duty tasks. Starting at $25,000.</dd>
+                <dt>Electric Vehicles</dt>
+                <dd>Eco-friendly and innovative, with long-range capabilities. Starting at $35,000.</dd>
+                <dt>Luxury Cars</dt>
+                <dd>Premium vehicles with unmatched comfort and features. Starting at $50,000.</dd>
+            </dl>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Family Car Dealership. All rights reserved.</p>
+    </footer>
+</body>
+</html>

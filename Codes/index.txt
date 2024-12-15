@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Car Dealership</title>
+    <link rel="stylesheet" href="Stylesheets/ChezFur.css">
+
+    <style>
+        .car {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 150px;
+        }
+
+        header {
+            position: relative;
+            padding: 20px;
+            background: black; /* Changed to black */
+            color: white; /* Adjusted text color for better contrast */
+            overflow: hidden;
+        }
+
+        .header-content {
+            position: relative;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            color: white; /* Ensures links are visible on black background */
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+        <div class="header-content">
+            <h1>Family Car Dealership</h1>
+           <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Inventory</a></li>
+                    <li><a href="finance.html">Financing Options</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+ </div>
+        <img src="images/dealership-banner.jpg" alt="Car Dealership Banner" class="banner">
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h2>Welcome to Family Car Dealership</h2>
+            <p>Your trusted partner in finding the perfect car for your family.</p>
+        </section>
+
+
+        <section id="testimonials">
+            <h2>Customer Testimonials</h2>
+            <div class="testimonials-grid">
+                <blockquote>
+                    "The best car-buying experience we've ever had. Excellent service!" 
+                    <cite>- Sarah L.</cite>
+                </blockquote>
+                <blockquote>
+                    "Family Car Dealership made financing so easy. Highly recommended!" 
+                    <cite>- John D.</cite>
+                </blockquote>
+                <blockquote>
+                    "A wide selection of vehicles and knowledgeable staff. Love my new car!" 
+                    <cite>- Emily R.</cite>
+                </blockquote>
+            </div>
+        </section>
+
+        <section id="special-offers">
+            <h2>Special Offers</h2>
+            <div class="offers-grid">
+                <div class="offer">
+                    <img src="images/discount.jpg" alt="Discount Offer">
+                    <p><strong>10% Off</strong> on all SUVs this month only!</p>
+                </div>
+                <div class="offer">
+                    <img src="images/trade-in.jpg" alt="Trade-In Offer">
+                    <p><strong>Extra $1000</strong> Trade-In Credit for your old car.</p>
+                </div>
+                <div class="offer">
+                    <img src="images/zero-down.jpg" alt="Zero Down Payment Offer">
+                    <p><strong>Zero Down Payment</strong> on select models.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Family Car Dealership. All rights reserved.</p>
+    </footer>
+</body>
+</html>
