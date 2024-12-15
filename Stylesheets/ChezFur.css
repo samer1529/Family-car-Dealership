@@ -1,0 +1,319 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #f5f5f5; /* Light text */
+    line-height: 1.6;
+}
+
+/* Finance Page Background */
+.finance-page {
+background-image: url('../images/finance-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+/* Header */
+header {
+    background-color: #1e1e1e;
+    padding: 1.5em;
+    text-align: center;
+    color: #ffa500; /* Warm orange for branding */
+
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+header nav a {
+    color: #f5f5f5;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #ffa500;
+}
+
+/* Main Content */
+main {
+    padding: 2em;
+    max-width: 1200px;
+    margin: auto;
+}
+/* Video Banner Section */
+#banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background: #000; /* Fallback background */
+}
+
+#banner video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.banner-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.banner-text p {
+    font-size: 1.2rem;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 3em;
+    background-color: #333;
+    border-radius: 8px;
+    margin-bottom: 2em;
+}
+
+/* About Us Images */
+.about-images img {
+    width: 300px; /* Resize all About Us images */
+    height: auto;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: block;
+}
+
+/* Inventory/Financing List */
+dl {
+    padding: 2em;
+    margin: auto;
+    max-width: 800px;
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 8px;
+}
+dl dt {
+    font-weight: bold;
+    color: #ffa500;
+    margin-top: 1.5em;
+}
+
+dl dd {
+    margin-left: 1.5em;
+    color: #f5f5f5;
+    font-style: italic;
+}
+
+/* Benefits Section */
+ul.benefits-list {
+    padding: 2em;
+    margin: auto;
+    max-width: 800px;
+    background-color: #333;
+    border-radius: 8px;
+    list-style-type: disc;
+    color: #f5f5f5;
+    padding-left: 1.5em;
+}
+
+ul.benefits-list li {
+    margin-top: 0.5em;
+}
+
+/* Image Gallery */
+.inventory-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5em;
+    padding: 2em;
+}
+
+.inventory-grid .car img {
+    max-width: 200px; /* Set smaller width for inventory images */
+    height: 1oo;
+    margin: 10px auto;
+    display: block;
+    border-radius: 8px; /* Optional rounded corners */
+}
+
+.inventory-grid .car p {
+    text-align: center;
+    margin-top: 0.5em;
+    color: #f5f5f5;
+}
+
+/* Contact Form */
+form {
+    background-color: #1e1e1e;
+    padding: 2em;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 5px;
+    color: #f5f5f5;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.7em 1.5em;
+    background-color: #ffa500;
+    border: none;
+    border-radius: 5px;
+    color: #121212;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #f39c12;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #1e1e1e;
+    margin-top: 2em;
+    color: #f5f5f5;
+}
+
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+   /* Styling for Inventory Grid */
+.inventory-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5em;
+    padding: 2em;
+    flex-wrap: wrap;
+}
+
+.car {
+    text-align: center;
+}
+
+.car-image {
+    width: 60%;
+    max-width: 300px; /* Adjust image size */
+    border-radius: 8px;
+}
+
+.car-link {
+    display: block;
+    margin-top: 0.5em;
+    font-size: 1em;
+    text-decoration: none; /* Remove underline */
+    color: #ffa500; /* Highlight color for links */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.car-link:hover {
+    color: #f39c12; /* Darker orange on hover */
+}
+
+    }
+
+    ul.benefits-list {
+        padding-left: 1em;
+    }
+
+    form {
+        padding: 1.5em;
+    
+}
+/* Special Offers Section */
+#special-offers {
+    text-align: center;
+    padding: 20px;
+}
+
+#special-offers h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffa500; /* Optional branding color */
+}
+
+.offers-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.offer {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.offer img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.offer h3, .offer h4 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-top: 10px;
+    color: #f5f5f5; /* Light text for visibility */
+}
+#banner {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    overflow: hidden;
+}

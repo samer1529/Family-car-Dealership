@@ -1,0 +1,208 @@
+body {
+    background-color: #F0F4F8; /* Main Background */
+    color: #1D1E2C; /* Font color */
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #E75480; /* Header Background */
+    color: #F0F4F8; /* Header text color */
+}
+
+main {
+    background-color: saddlebrown;
+    color: black;
+    padding: 20px;
+}
+
+aside {
+    background-color: #B1D4E0; /* Highlight color from palette */
+    color: #1D1E2C; /* Darker text color for good contrast */
+    padding: 15px; /* Default padding for small screens */
+    border-radius: 8px; /* Rounded corners */
+    border: 2px solid #1D1E2C; /* Solid border to draw attention */
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+}
+
+li {
+    font-size: 1.25em; /* Slightly larger */
+}
+
+dt {
+    font-weight: bold; /* Make menu items bold */
+}
+
+dd {
+    font-style: italic; /* Descriptions in italics */
+}
+
+figcaption {
+    text-align: center;
+    font-weight: bold; /* Bold caption */
+}
+
+header {
+    background-image: url("../Images/LogoSmall.png"); /* Relative path */
+    background-position: right top; /* Align the logo to the top right */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    min-height: 50px; /* Minimum height to prevent the image from being cut off */
+}
+
+.menu-heading {
+  font-family: 'Cursive', sans-serif; /* You can choose a specific cursive font */
+  text-align: center;
+  font-size: 2em; /* Adjust size as needed */
+}
+
+.allergy-info {
+    clear: both; /* Clears floats from columns */
+    font-family: Arial, sans-serif; /* Use a readable font */
+    font-size: 1.1em;
+    color: #ff0000; /* Example for making the text stand out */
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.menu-section {
+  background-color: #f0e68c; /* Example color, can replace with your chosen palette */
+  width: 80%;
+  margin: 0 auto; /* Center the section */
+  padding: 20px; /* Add some padding */
+  border-radius: 10px; /* Add some padding and rounded corners */
+}
+
+.cat-gallery {
+    display: flex;                    /* Enable flexbox */
+    flex-direction: column;           /* Stack images vertically */
+    align-items: center;              /* Center images horizontally */
+    justify-content: center;          /* Center the items in the flex container */
+    width: 90%;                       /* Set the gallery width */
+    margin: 0 auto;                   /* Center the gallery */
+    padding: 20px;                    /* Add padding */
+    border-radius: 10px;              /* Round corners */
+}
+
+.cat-image {
+    width: 80px;                      /* Image size for small screens */
+    height: 80px;
+    border-radius: 50%;               /* Make the images circular */
+    margin: 10px;                     /* Add margin around images */
+}
+
+/* Navigation styles */
+nav {
+    background-color: #E75480; /* Adjust to your desired background color */
+    padding: 10px; /* Add some padding */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Vertical navigation for large screens */
+nav ul li {
+    margin: 10px 0;
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px 20px; /* Padding for the links to resemble buttons */
+}
+
+/* Horizontal navigation for small screens */
+@media screen and (max-width: 750px) {
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0 5px;
+    }
+
+    nav ul li a {
+        padding: 10px;
+        display: block;
+        text-align: center;
+    }
+
+    aside {
+        padding: 8px; /* Less padding for small screens */
+        border-radius: 6px; /* Slightly less rounded corners on small screens */
+    }
+}
+
+/* Style for aside element */
+aside {
+    padding: 15px; /* Increased padding for large screens */
+    background-color: #fafafa;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+@media (min-width: 750px) {
+    body {
+    background-color: #5C80BC; /* Accent for larger screens */
+    }
+
+    h1, h2, h3 {
+        font-family: Georgia, 'Times New Roman', serif;
+    }
+
+    header {    
+        background-color: #E75480; /* Header Background */
+        background-image: url("../Images/LogoLarge.png"); /* Relative path */
+        min-height: 100px; /* Adjust the height for the larger logo */
+    }
+
+    aside.menu-aside {
+    padding: 15px; /* Padding inside the aside element */
+    background-color: #B1D4E0; /* Highlight color from palette */
+    color: #1D1E2C; /* Darker text color for good contrast */
+    border-radius: 8px; /* Rounded corners */
+    border: 2px solid #1D1E2C; /* Solid border to draw attention */
+    margin-bottom: 20px; /* Margin below the aside to create space between aside and menu */
+}
+    .cat-image {
+        width: 180px; /* For larger screens */
+        height: 180px;
+    }
+
+    /* Two-column layout for large screens */
+    .column {
+        float: left;
+        padding: 10px;
+    }
+    .left {
+    width: 20%; /* Adjust width for the left column */
+    float: left; /* Ensure the left column floats to the left */
+}
+
+    .right {
+        width: 75%; /* Adjust width for the right column */
+    }
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Center the footer */
+footer {
+    clear: both;
+    text-align: center;
+}
